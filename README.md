@@ -34,6 +34,13 @@ go run main.go
 
 > For automatically reload application, recommend to use [nodemon](https://nodemon.io/), [fresh](https://github.com/gravityblast/fresh)
 
+## Screenshot
+![](/websocket-ss.jpg)
+![](/socketio-chat-ss.jpg)
+![](/sse-ss.jpg)
+![](/regular-polling-ss.jpg)
+![](/long-polling-ss.jpg)
+
 ## Reference Links
 
 - https://socket.io/
