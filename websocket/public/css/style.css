@@ -1,0 +1,30 @@
+.radius-30,
+.slider ul,
+.slider img {
+  border-radius: 30px;
+}
+
+h2.header {
+  margin-bottom: 1.25em;
+}
+
+.result-box {
+  padding: 30px;
+}
+
+.result-box {
+  padding: 30px;
+}
+
+#messages div {
+  padding: 10px;
+  word-wrap: break-word;
+}
+
+#messages div:nth-child(1) {
+  background-color: #fff8e1 !important;
+}
+
+#messages div:nth-child(odd) {
+  background-color: #eeeeee;
+}

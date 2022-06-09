@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0" />
+    <title><%= title %></title>
+
+    <!-- CSS  -->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css" integrity="sha512-UJfAaOlIRtdR+0P6C3KUoTDAxVTuy3lnSXLyLKlHYJlcSU8Juge/mjeaxDNMlw9LgeIotgz5FP8eUQPhX1q10A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="css/style.css" rel="stylesheet">
+</head>
+
+<body>
+    <nav class="amber darken-4" role="navigation">
+        <div class="nav-wrapper container"><a href="/" class="brand-logo"><i class="large material-icons">blur_on</i></a>
+            <ul class="right">
+                <li><a href="https://github.com/afif-dev" target="_blank">Github</a></li>
+                <li><a href="https://twitter.com/afif_dev" target="_blank">Twitter</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <div class="section no-pad-bot">
+        <div class="container">
+            <h2 class="header center amber-text text-darken-4"><%= title %></h2>
+            <div class="row">
+                <div class="col s12">
+                    <div class="result-box radius-30 z-depth-3">
+                        <div class="row">
+                            <form name="publish">
+                                <div class="col s12 m10"><input type="text" name="message" maxlength="150" /></div>
+                                <div class="col s12 m2 center">
+                                    <button class="btn waves-effect waves-light amber darken-3" type="submit" name="action">Send</button>
+                                </div>
+                            </form>
+                        </div>
+                        <div id="messages"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!--  Scripts-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js" integrity="sha512-NiWqa2rceHnN3Z5j6mSAvbwwg3tiwVNxiAQaaSMSXnRRDh5C2mk/+sKQRw8qjV1vN4nf8iK2a0b048PnHbyx+Q==" crossorigin="anonymous"
+        referrerpolicy="no-referrer"></script>
+    <script src="js/main.js"> </script>
+</body>
+
+</html>

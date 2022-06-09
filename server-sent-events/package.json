@@ -1,0 +1,20 @@
+{
+  "name": "server-sent-events-example",
+  "version": "1.0.0",
+  "description": "example for sse",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "afif-dev",
+  "license": "ISC",
+  "dependencies": {
+    "@fastify/formbody": "^7.0.0",
+    "@fastify/helmet": "^8.1.0",
+    "@fastify/static": "^5.0.2",
+    "ejs": "^3.1.8",
+    "fastify": "^3.29.0",
+    "fastify-sse": "^1.0.0",
+    "point-of-view": "^5.3.0"
+  }
+}

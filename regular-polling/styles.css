@@ -1,0 +1,19 @@
+.radius-30 {
+  border-radius: 30px;
+}
+
+h2.header {
+  margin-bottom: 1.25em;
+}
+
+.cat-img {
+  margin-bottom: 1em;
+}
+
+.text-box .content {
+  margin-top: 0;
+  padding: 60px 30px;
+  font-size: 1.45em;
+  line-height: 1.5em;
+  word-wrap: break-word;
+}

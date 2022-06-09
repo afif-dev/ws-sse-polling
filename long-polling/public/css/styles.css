@@ -1,0 +1,41 @@
+.radius-30,
+.slider ul,
+.slider img {
+  border-radius: 30px;
+}
+
+h3.header {
+  margin-bottom: 1.25em;
+}
+
+.slider {
+  margin-bottom: 20px;
+}
+
+.result-box {
+  padding: 30px 20px 5px;
+}
+
+.result-box form {
+  margin-top: 20px;
+}
+
+.result-box form button[type="submit"] {
+  width: 100%;
+}
+
+#messages {
+  overflow: hidden;
+  overflow-y: auto;
+  height: 350px;
+}
+
+#messages div {
+  padding: 10px;
+  cursor: pointer;
+  word-wrap: break-word;
+}
+
+#messages div:nth-child(odd) {
+  background-color: #ede7f6;
+}
